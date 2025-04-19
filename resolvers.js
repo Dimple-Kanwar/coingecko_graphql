@@ -1,7 +1,7 @@
 import axios from "axios";
 import("dotenv/config");
 
-const COINGECKO_BASE_URL = 'http://api.coingecko.com/api/v3';
+const COINGECKO_BASE_URL = process.env.COINGECKO_BASE_URL;
 const API_KEY = process.env.COINGECKO_API_KEY;
 
 const resolvers = {
